@@ -3,6 +3,9 @@ This application utilizes Node.JS and MySQL to create an Amazon-like storefront.
 
 
 ## Images
+<img width="1327" alt="bamazon_db products table" src="https://user-images.githubusercontent.com/38147387/45262453-c9318980-b3cb-11e8-9452-606628c39150.png">
+
+<img width="1335" alt="running node bamazoncustomer" src="https://user-images.githubusercontent.com/38147387/45262456-ce8ed400-b3cb-11e8-8341-08023b815797.png">
 
 ## Sources
 Node.js
