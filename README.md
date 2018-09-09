@@ -12,3 +12,6 @@ Node.js
 Mock-Inquirer
 Inquirer
 MySQL
+
+## Licesnce
+Copyright (c) [2018] [Leslie Quijano]
