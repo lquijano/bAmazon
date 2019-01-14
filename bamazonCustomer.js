@@ -55,3 +55,23 @@ inquirer
       name: "quantity"
     }
   ])
+  .then(function(inquirerResponse) {
+    if (inquirerResponse.confirm) {
+      console.log(
+        "\nHello, " +
+          inquirerResponse.username +
+          "! Welcome to Leslie's bAmazon."
+      );
+
+      console.log(
+        "\nThat's probably the best choice, you only need " +
+          inquirerResponse.quantity
+      );
+    } else {
+      console.log(
+        "\nThat's okay " +
+          inquirerResponse.username +
+          ", come again when you have money to blow.\n"
+      );
+    }
+  });
